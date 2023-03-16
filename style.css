@@ -6,16 +6,25 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #E6C196;
+}
+
 header {
     position: fixed;
     z-index: 999;
     width: 100%;
-    background-color: brown;
+    background-color: #613402;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-shadow: 1px 1px 30px rgba(20, 0, 0, 0.356);
+}
+
+.header-width {
+    width: 100%;
+    height: 65px;
 }
 
 img {
@@ -62,7 +71,7 @@ img {
 
 .menu-hamburguer a:hover {
     background-color: #fff;
-    color: brown;
+    color: #613402;
 }
 
     #ico-menu, #ico-fechar {
@@ -70,10 +79,11 @@ img {
 } 
 
 .banner-top {
+    background-size: cover;
     padding-top: 200px;
-    background-image: url("img/banner.png");
+    background-image: url("img/junior-banner-desktop.jpg");
     height: 80vh;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
 }
 
@@ -88,14 +98,14 @@ img {
     text-align: center;
     font-family: cursive;
     font-size: 30px;
-    color: brown;
+    color: #613402;
 }
 
 .linha-brown {
     width: 70px;
     height: 3px;
     margin: 20px auto;
-    background-color: rgba(165, 42, 42, 0.534);
+    background-color: #613402;
 }
 
 .variedades {
@@ -118,8 +128,8 @@ img {
 }
 
 .variedades a:hover {
-    color: brown;
-    border-bottom: 1px solid brown;
+    color: #613402;
+    border-bottom: 1px solid #613402;
 }
 
 .flex-eventos {
@@ -151,13 +161,13 @@ img {
 #p-eventos {
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
-    color: rgba(0, 0, 0, 0.623);
+    color: #613402;
 }
 
 .container-eventos:hover {
     filter: brightness(50%);
-    color: brown;
-    border-bottom: 1px solid brown;
+    color: #613402;
+    border-bottom: 1px solid #613402;
 }
 
 .background-eventos {
@@ -177,6 +187,7 @@ img {
 }
 
 .container-eventos p {
+    color: #613402;
     margin-top: 7px;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
@@ -201,18 +212,23 @@ img {
     text-align: center;
     font-size: 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: brown;
+    color: #613402;
 }
 
 .apresentacao p {
+    line-height: 30px;
     margin-top: 40px;
     font-size: 19px;
+    text-align: justify;
+    color: #613402;
 }
 
 #junior-img {
     max-width: 450px;
     display: block;
     margin: 0 auto;
+    box-shadow: 1px 1px 10px #613402;
+    border-radius: 2px;
 }
 
 #casa-logo {
@@ -252,5 +268,11 @@ main {
 
     #ico-menu:hover, #ico-fechar:hover {
         transform: scale(1.1);
+    }
+
+    .banner-top {
+        background-image: url("img/junior-banner-mobile.jpg");
+        background-position: center;
+        height: 60vh;
     }
 }
