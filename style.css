@@ -143,6 +143,12 @@ img {
     background-color: black;
 }
 
+#p-eventos {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.623);
+}
+
 .container-eventos:hover {
     filter: brightness(50%);
     color: brown;
