@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: .6s;
+}
+
+header {
+    background-color: brown;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 30px rgba(20, 0, 0, 0.356);
+}
+
+img {
+    width: 100%;
+}
+
+.menu-hamburguer {
+    display: none;
+    flex-direction: column;
+}
+
+#logo {
+    max-width: 50px;
+    cursor: pointer;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
+
+.lista-menu {
+    max-width: 700px;
+}       
+
+.lista-menu a {
+    color: #fff;
+    font-size: 15px;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .9s all;
+}
+
+.lista-menu a:hover {
+    font-size: 19px;
+}
+
+.menu-hamburguer a {
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-hamburguer a:hover {
+    background-color: #fff;
+    color: brown;
+}
+
+    #ico-menu, #ico-fechar {
+    display: none;
+} 
+
+.banner-top {
+    background-image: url("img/banner-top.png");
+    height: 80vh;
+    background-position: top 0px right 20%;
+    background-repeat: no-repeat;
+}
+
+#ico-trabalho {
+    max-width: 65px;
+    margin: 35px auto 0 auto;
+    display: block;
+}
+
+#h2-portifolio {
+    margin-top: 20px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    color: brown;
+}
+
+.linha-brown {
+    width: 70px;
+    height: 3px;
+    margin: 20px auto;
+    background-color: rgba(165, 42, 42, 0.534);
+}
+
+.variedades {
+    max-width: 600px;
+    margin: 40px auto 0 auto;
+    display: flex; 
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 120px;
+    flex-wrap: wrap;
+}
+
+.variedades a {
+    /* display: inline-block; */
+    min-width: 110px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.795);
+    padding: 15px;
+    transition: 1s all;
+}
+
+.variedades a:hover {
+    color: brown;
+    border-bottom: 1px solid brown;
+}
+
+main {
+    height: 2000px;
+}
+
+@media(max-width: 500px) {
+    
+    header {
+        display: block;
+        padding: 0;
+    }
+
+    #logo {
+        padding: 5px;
+    }
+
+    .lista-menu {
+        display: none;
+    }
+
+    #ico-menu, #ico-fechar {
+        max-width: 35px;
+        float: right;
+        padding: 15px;
+    }
+
+    #ico-menu {
+        display: block;
+    }
+
+    #ico-menu:hover, #ico-fechar:hover {
+        transform: scale(1.1);
+    }
+}
