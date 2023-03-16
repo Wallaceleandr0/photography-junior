@@ -6,6 +6,9 @@
 }
 
 header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
     background-color: brown;
     padding: 10px;
     display: flex;
@@ -66,6 +69,7 @@ img {
 } 
 
 .banner-top {
+    padding-top: 200px;
     background-image: url("img/banner.png");
     height: 80vh;
     background-position: center;
