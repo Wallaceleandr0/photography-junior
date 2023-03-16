@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     transition: .6s;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -125,7 +126,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     max-width: 1400px;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 60px auto;
 }
 
 .eventos {
@@ -161,6 +162,14 @@ img {
 
 .background-eventos {
     background-image: url("img/foto-teste.jpg");
+    max-width: 350px;
+    height: 250px;
+    background-position: center top;
+    background-size: cover;
+}
+
+.background-eventos-2 {
+    background-image: url("img/foto-2-teste.jpg");
     max-width: 350px;
     height: 250px;
     background-position: center top;
