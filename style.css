@@ -68,7 +68,7 @@ img {
 .banner-top {
     background-image: url("img/banner-top.png");
     height: 80vh;
-    background-position: top 0px right 20%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
