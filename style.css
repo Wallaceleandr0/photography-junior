@@ -122,7 +122,7 @@ img {
     /* display: inline-block; */
     min-width: 110px;
     text-align: center;
-    color: rgba(0, 0, 0, 0.795);
+    color: #613402;
     padding: 15px;
     transition: 1s all;
 }
