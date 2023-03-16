@@ -125,7 +125,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
 }
 
 .eventos {
