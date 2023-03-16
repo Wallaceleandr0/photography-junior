@@ -117,6 +117,52 @@ img {
     border-bottom: 1px solid brown;
 }
 
+.flex-eventos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.eventos {
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 2px;
+    flex: 1 1 300px;
+}
+
+.container-eventos {
+    max-width: 350px;
+}
+
+.container-eventos {
+    color: black;
+}
+
+.a-eventos {
+    background-color: black;
+}
+
+.container-eventos:hover {
+    filter: brightness(50%);
+    color: brown;
+    border-bottom: 1px solid brown;
+}
+
+.background-eventos {
+    background-image: url("img/foto-teste.jpg");
+    max-width: 350px;
+    height: 250px;
+    background-position: center top;
+    background-size: cover;
+}
+
+.container-eventos p {
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 main {
     height: 2000px;
 }
