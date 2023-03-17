@@ -261,6 +261,11 @@ button {
     min-height: 40px;
     width: 100%;    
     margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.01);
 }
 
 select {
