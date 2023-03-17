@@ -237,8 +237,59 @@ img {
     max-width: 65px;
 }
 
+.formulario h2 {
+    margin-top: 35px;
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.formulario form {
+    max-width: 800px;
+    margin: 40px auto 0 auto;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    min-height: 40px;
+    width: 100%;    
+    margin-top: 10px;
+}
+
+select {
+    display: block;
+    margin: 0 auto;
+    min-height: 40px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.747);
+    margin-top: 10px;
+}
+
+input {
+    margin-top: 10px;
+    display: block;
+    min-height: 35px;
+}
+
+#mensagem {
+    margin-top: 10px;
+    text-align: initial;
+    min-height: 100px;
+}
+
 main {
-    height: 2000px;
+    padding: 10px;
+}
+
+h2, h1 {
+    text-shadow: 1px 2px 10px #fff;
 }
 
 @media(max-width: 500px) {
