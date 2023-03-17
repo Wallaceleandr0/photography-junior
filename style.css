@@ -128,9 +128,8 @@ img {
 }
 
 .variedades a:hover {
-    color: #613402;
-    border-bottom: 1px solid #613402;
-}
+    text-decoration: underline;
+} 
 
 .flex-eventos {
     display: flex;
