@@ -267,12 +267,19 @@ img {
 }
 
 .formulario h2 {
-    margin-top: 5px;
+    padding-top: 45px;
     font-size: 35px;
-    color: #dfceb8;
+    color: #fff;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
+}
+
+.linha-orcamento {
+    width: 70px;
+    height: 3px;
+    margin: 20px auto;
+    background-color: #fff;
 }
 
 .formulario {
@@ -300,9 +307,9 @@ button {
     margin-top: 25px;
     cursor: pointer;
     outline: none;
-    background-color: #dfceb8;
+    background-color: #fff;
     border: none;
-    box-shadow: 1px 2px 8px #dfceb8;
+    box-shadow: 1px 2px 8px #fff;
 }
 
 button:hover {
@@ -312,14 +319,15 @@ button:hover {
 select {
     display: block;
     margin: 0 auto;
-    min-height: 40px;
+    min-height: 45px;
     width: 100%;
-    color: rgba(0, 0, 0, 0.747);
+    color: rgba(0, 0, 0, 0.418);
     margin-top: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 input {
+    padding: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 25px;
     display: block;
@@ -330,7 +338,7 @@ input {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 25px;
     text-align: initial;
-    min-height: 100px;
+    min-height: 135px;
 }
 
 main {
@@ -338,7 +346,7 @@ main {
 }
 
 h2, h1 {
-    text-shadow: 1px 2px 10px #dfceb8;
+    text-shadow: 1px 2px 10px #fff;
 }
 
 @media(max-width: 500px) {
