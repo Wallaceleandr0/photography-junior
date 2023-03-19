@@ -26,6 +26,10 @@ body {
     
 }
 
+.wpp-link:hover {
+    transform: scale(1.04);
+}
+
 .fa-whatsapp {
     color: #fff;
     margin-top: 9px;
@@ -285,7 +289,8 @@ img {
 .formulario {
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: right 35% bottom 45%;;
+    /* background-position: right 35% bottom 45%; */
+    background-position: right 100% top 45% top;
     background-size: cover;
     background-image: url("img/banner-formulario.png");
 }
@@ -337,6 +342,7 @@ input {
 #mensagem {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 25px;
+    padding: 5px;
     text-align: initial;
     min-height: 135px;
 }
