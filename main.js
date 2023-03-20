@@ -1,3 +1,5 @@
+'use strict'
+
 function abrirMenu () {
     document.querySelector('.menu-hamburguer').style.display = 'flex'
     document.querySelector('#ico-menu').style.display = 'none'
@@ -11,7 +13,13 @@ function fecharMenu () {
     document.querySelector('#ico-fechar').style.display = 'none'
 }
 
+document.querySelector('#range').addEventListener('input', e => {
+    changeWidth(e.target.value)
+});
 
+function changeWidth(value) {
+    document.querySelector('#dv-effect').style.width = `${value}%`;
+}
 
 
 

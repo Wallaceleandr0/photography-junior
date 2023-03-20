@@ -355,6 +355,67 @@ h2, h1 {
     text-shadow: 1px 2px 10px #fff;
 }
 
+.produto-1 {
+    border-radius: 30px 2px ;
+    margin: 100px auto 0 auto;
+    background-image: url("img/produto-1.png");
+    width: 250px;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 1px 2px 10px #ffffffa6;
+}
+
+.estilo-rage {
+    background-color: #fff;
+    border-radius: 20px 2px;
+}
+
+#range {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.effect {
+    filter: blur(1px);
+    background-color: rgba(0, 0, 0, 0.342);
+    background-size: cover;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    height: 100%;
+}
+
+#dv-effect {
+    height: 310px;
+}
+
+.container-produto-1 p {
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#comprar-presets {
+    display: block;
+    background-color: #fff;
+    max-width: 200px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+    border-radius: 30px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 1px 2px 10px #ffffff86;
+    margin: 15px auto;
+}
+
+#comprar-presets:hover {
+    transform: scale(1.02);
+}
+
 @media(max-width: 500px) {
     
     header {
