@@ -13,19 +13,8 @@
         <i class="fa fa-whatsapp"></i>
     </a>
     <header>
-        <div class="menu-hamburguer">
-            <a href="#">HOME</a>
-            <a href="#">PORTIFÓLIO</a>
-            <a href="#">SOBRE MIM</a>
-        </div>
         <a href="index.html"><img src="img/logo.png" alt="logo" id="logo"></a>
-        <a href="#"><img src="img/ico-menu.png" alt="ico-menu-burguer" id="ico-menu" onclick="abrirMenu()"></a>
-        <a href="#"><img src="img/ico-fechar.png" alt="ico-fechar-burguer" id="ico-fechar" onclick="fecharMenu()"></a>
-        <div class="lista-menu">
-            <a href="#">HOME</a>
-            <a href="#">PORTIFÓLIO</a>
-            <a href="#">SOBRE MIM</a>
-        </div>
+        <a href="index.html" id="voltar">Voltar..</a>
     </header>
     <div class="header-width">
     
@@ -53,4 +42,20 @@
             <a href="#" id="comprar-presets">COMPRAR</a>
         </div>
     </section>
+    <style>
+        header {
+            display: flex;
+        }
+
+        #voltar {
+            margin-right: 20px;
+            color: black;
+            font-weight: bolder;
+        }
+
+        #voltar:hover {
+            transform: scale(1.06);
+        }
+
+    </style>
 </body>
