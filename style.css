@@ -370,7 +370,7 @@ h2, h1 {
 }
 
 .capa {
-    border-radius: 0 0 30px 30px ;
+    border-radius: 30px ;
     margin: 0 auto 0 auto;
     background-image: url("img/capa.png");
     width: 250px;
@@ -457,10 +457,18 @@ footer {
     flex-wrap: wrap;
 }
 
+.presets-section p {
+    color: #fff;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .preset {
-    max-width: 400px;
+    width: 700px;
     margin: 0 auto;
     padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .preset img {
@@ -468,7 +476,6 @@ footer {
     display: block;
     margin: 0 auto;
     max-width: 300px;
-    border-radius: 25px 5px;
 }
 
 .preset p {
