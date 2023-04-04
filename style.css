@@ -4,6 +4,7 @@
     text-decoration: none;
     transition: .5s;
     scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -79,7 +80,6 @@ img {
     color: black;
     font-size: 15px;
     padding: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: .9s all;
 }
 
@@ -90,7 +90,6 @@ img {
 .menu-hamburguer a {
     color: black;
     font-size: 17px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
     text-align: center;
 }
@@ -122,7 +121,6 @@ img {
 #h2-portifolio {
     margin-top: 20px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     color: #dfceb8;
 }
@@ -139,13 +137,11 @@ img {
     margin: 40px auto 0 auto;
     display: flex; 
     justify-content: space-around;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 35px;
     flex-wrap: wrap;
 }
 
 .variedades a {
-    /* display: inline-block; */
     min-width: 110px;
     text-align: center;
     color: #dfceb8;
@@ -185,7 +181,6 @@ img {
 
 #p-eventos {
     font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
     color: #dfceb8;
 }
 
@@ -215,7 +210,6 @@ img {
     color: #dfceb8;
     margin-top: 7px;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .sobre {
@@ -237,7 +231,6 @@ img {
 .apresentacao h1 {
     text-align: center;
     font-size: 40px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #dfceb8;
 }
 
@@ -275,7 +268,6 @@ img {
     font-size: 35px;
     color: #fff;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
@@ -289,7 +281,6 @@ img {
 .formulario {
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* background-position: right 35% bottom 45%; */
     background-position: center;
     background-size: cover;
     background-image: url("img/banner-formulario.png");
@@ -329,19 +320,16 @@ select {
     width: 100%;
     color: rgba(0, 0, 0, 0.418);
     margin-top: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 input {
     padding: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 25px;
     display: block;
     min-height: 35px;
 }
 
 #mensagem {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 25px;
     padding: 5px;
     text-align: initial;
@@ -401,11 +389,9 @@ h2, h1 {
     margin-top: 20px;
     color: #fff;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container-capa h2 {
-    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     margin-top: 35px;
     font-size: 45px;
@@ -418,11 +404,9 @@ h2, h1 {
     background-color: #fff;
     max-width: 200px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
     padding: 15px;
     border-radius: 30px;
     color: rgba(0, 0, 0, 0.753);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: 1px 2px 10px #ffffff86;
     margin: 15px auto;
 }
@@ -442,7 +426,6 @@ footer {
 /* PRESETS.HTML */
 
 #h2-presets {
-    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     margin-top: 35px;
     font-size: 45px;
@@ -460,7 +443,6 @@ footer {
 .presets-section p {
     color: #fff;
     margin: 0 auto;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .preset {
@@ -482,7 +464,6 @@ footer {
     margin-top: 20px;
     color: #fff;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container-preset {
