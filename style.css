@@ -194,7 +194,63 @@ img {
     background-image: url("img/modelo1.jpg");
     max-width: 350px;
     height: 250px;
-    background-position: center 48%;
+    background-position: center 46%;
+    background-size: 100%;
+}
+
+.background-modelo-02 {
+    background-image: url("img/modelo2.jpg");
+    max-width: 350px;
+    height: 250px;
+    background-position: center 8%;
+    background-size: 100%;
+}
+
+.background-modelo-03 {
+    background-image: url("img/modelo3.jpg");
+    max-width: 350px;
+    height: 250px;
+    background-position: center 30%;
+    background-size: 100%;
+}
+
+.background-modelo-04 {
+    background-image: url("img/modelo4.jpg");
+    max-width: 350px;
+    height: 250px;
+    background-position: center 55%;
+    background-size: 100%;
+}
+
+.background-modelo-05 {
+    background-image: url("img/modelo5.jpg");
+    max-width: 350px;
+    height: 250px;
+    background-position: center 55%;
+    background-size: 100%;
+}
+
+.background-modelo-06 {
+    background-image: url("img/modelo6.jpg");
+    max-width: 350px;
+    height: 250px;
+    background-position: center 25%;
+    background-size: 100%;
+}
+
+.background-modelo-07 {
+    background-image: url("img/modelo7.jpg");
+    max-width: 350px;
+    height: 250px;
+    background-position: center 37%;
+    background-size: 100%;
+}
+
+.background-modelo-08 {
+    background-image: url("img/modelo8.jpg");
+    max-width: 350px;
+    height: 250px;
+    background-position: center 37%;
     background-size: 100%;
 }
 
