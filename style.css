@@ -190,6 +190,14 @@ img {
     border-bottom: 1px solid #dfceb8;
 }
 
+.background-modelo-01 {
+    background-image: url("img/modelo1.jpg");
+    max-width: 350px;
+    height: 250px;
+    background-position: center 48%;
+    background-size: 100%;
+}
+
 .background-eventos {
     background-image: url("img/foto-teste.jpg");
     max-width: 350px;
