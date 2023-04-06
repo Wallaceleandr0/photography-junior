@@ -12,4 +12,3 @@ function fecharMenu () {
     document.querySelector('#ico-menu').style.display = 'block'
     document.querySelector('#ico-fechar').style.display = 'none'
 }
-
